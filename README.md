@@ -1,6 +1,8 @@
+[![Docker](https://github.com/RAHB-REALTORS-Association/chat2gpt-ui/actions/workflows/deploy-docker-image.yaml/badge.svg?branch=main)](https://github.com/RAHB-REALTORS-Association/chat2gpt-ui/actions/workflows/deploy-docker-image.yaml)
+
 # Chat²GPT UI
 
-Chat²GPT UI is an open source chat UI for AI models.
+**Chat²GPT UI** is an open source chat UI for AI models.
 
 ## Deploy
 
@@ -16,7 +18,7 @@ docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chat2gpt-ui
 Pull from ghcr:
 
 ```
-docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/rahb-realtors-association/chat2gpt-ui:latest
+docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/rahb-realtors-association/chat2gpt-ui:main
 ```
 
 ## Running Locally
@@ -72,3 +74,6 @@ When deploying the application, the following environment variables can be set:
 If you do not provide an OpenAI API key with `OPENAI_API_KEY`, users will have to provide their own key.
 
 If you don't have an OpenAI API key, you can get one [here](https://platform.openai.com/account/api-keys).
+
+## License
+This project is open sourced under the MIT license. See the [LICENSE](LICENSE) file for more info.
