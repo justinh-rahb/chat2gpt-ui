@@ -3,8 +3,8 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const PROMPT_PREFIX = process.env.PROMPT_PREFIX || '';
-const PROMPT_SUFFIX = process.env.PROMPT_SUFFIX || '';
+let PROMPT_PREFIX = process.env.PROMPT_PREFIX || '';
+let PROMPT_SUFFIX = process.env.PROMPT_SUFFIX || '';
 
 const api = axios.create({
   baseURL: 'https://api.openai.com/v1',
@@ -13,6 +13,11 @@ const api = axios.create({
     'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`
   }
 });
+
+export const updateSettings = (settings) => {
+  PROMPT_PREFIX = settings.PROMPT_PREFIX;
+  PROMPT_SUFFIX = settings.PROMPT_SUFFIX;
+};
 
 export const sendMessage = async (message) => {
   const data = {
