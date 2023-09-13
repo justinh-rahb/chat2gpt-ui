@@ -10,9 +10,9 @@ const Settings = () => {
     setSuffix(process.env.PROMPT_SUFFIX || '');
   }, []);
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    updateSettings({ PROMPT_PREFIX: prefix, PROMPT_SUFFIX: suffix });
+    await updateSettings({ PROMPT_PREFIX: prefix, PROMPT_SUFFIX: suffix });
   };
 
   return (
