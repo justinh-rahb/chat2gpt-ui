@@ -10,7 +10,9 @@
 
 Build locally:
 
-```shell
+```bash
+git clone https://github.com/RAHB-REALTORS-Association/chat2gpt-ui.git
+git checkout mistral
 docker build -t chat2gpt-ui .
 docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chat2gpt-ui
 ```
