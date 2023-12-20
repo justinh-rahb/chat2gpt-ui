@@ -357,12 +357,12 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
           <div className="text-center text-lg text-black dark:text-white">
             <div className="mb-8">{`Chat²GPT is an open source clone of OpenAI's ChatGPT UI.`}</div>
             <div className="mb-2 font-bold">
-              Important: Chat²GPT is 100% unaffiliated with OpenAI.
+              Important: Chat²GPT is 100% unaffiliated with OpenAI or Mistral AI.
             </div>
           </div>
           <div className="text-center text-gray-500 dark:text-gray-400">
             <div className="mb-2">
-              Chat²GPT allows you to plug in your API key to use this UI with
+              Chat²GPT allows you to plug in your Mistral Platform API key to use this UI with
               their API.
             </div>
             <div className="mb-2">
@@ -371,18 +371,18 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
             </div>
             <div className="mb-2">
               {t(
-                'Please set your OpenAI API key in the bottom left of the sidebar.',
+                'Please set your Mistral Platform API key in the bottom left of the sidebar.',
               )}
             </div>
             <div>
-              {t("If you don't have an OpenAI API key, you can get one here: ")}
+              {t("If you don't have a Mistral Platform API key, you can get one here: ")}
               <a
-                href="https://platform.openai.com/account/api-keys"
+                href="https://console.mistral.ai/users/api-keys/"
                 target="_blank"
                 rel="noreferrer"
                 className="text-blue-500 hover:underline"
               >
-                openai.com
+                mistral.ai
               </a>
             </div>
           </div>

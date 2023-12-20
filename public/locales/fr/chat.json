@@ -1,10 +1,10 @@
 {
-  "OpenAI API Key Required": "Clé API OpenAI requise",
-  "Please set your OpenAI API key in the bottom left of the sidebar.": "Veuillez saisir votre clé API OpenAI dans le coin inférieur gauche de la barre latérale.",
+  "Mistral API Key Required": "Clé API Mistral requise",
+  "Please set your Mistral API key in the bottom left of the sidebar.": "Veuillez saisir votre clé API Mistral dans le coin inférieur gauche de la barre latérale.",
   "Stop Generating": "Interrompre la génération",
   "Prompt limit is {{maxLength}} characters": "La limite du prompt est de {{maxLength}} caractères",
   "System Prompt": "Prompt du système",
-  "You are ChatGPT, a large language model trained by OpenAI. Follow the user's instructions carefully. Respond using markdown.": "Vous êtes ChatGPT, un grand modèle linguistique entraîné par OpenAI. Suivez attentivement les instructions de l'utilisateur. Répondez en utilisant Markdown.",
+  "You are ChatGPT, a large language model trained by Mistral AI. Follow the user's instructions carefully. Respond using markdown.": "Vous êtes ChatGPT, un grand modèle linguistique entraîné par Mistral AI. Suivez attentivement les instructions de l'utilisateur. Répondez en utilisant Markdown.",
   "Enter a prompt": "Entrez un prompt",
   "Regenerate response": "Régénérer la réponse",
   "Sorry, there was an error.": "Désolé, une erreur est survenue.",
@@ -18,11 +18,11 @@
   "You": "Vous",
   "Cancel": "Cancel",
   "Save & Submit": "Save & Submit",
-  "Make sure your OpenAI API key is set in the bottom left of the sidebar.": "Assurez-vous que votre clé API OpenAI est définie dans le coin inférieur gauche de la barre latérale.",
-  "If you completed this step, OpenAI may be experiencing issues.": "Si vous avez effectué cette étape, OpenAI peut rencontrer des problèmes.",
+  "Make sure your Mistral API key is set in the bottom left of the sidebar.": "Assurez-vous que votre clé API Mistral est définie dans le coin inférieur gauche de la barre latérale.",
+  "If you completed this step, Mistral may be experiencing issues.": "Si vous avez effectué cette étape, Mistral peut rencontrer des problèmes.",
   "click if using a .env.local file": "click if using a .env.local file",
   "Message limit is {{maxLength}} characters. You have entered {{valueLength}} characters.": "La limite de message est de {{maxLength}} caractères. Vous avez saisi {{valueLength}} caractères.",
   "Please enter a message": "Veuillez entrer un message",
-  "Chat²GPT is an advanced chat UI for OpenAI's API aiming to mimic ChatGPT's interface and functionality.": "Chat²GPT est un kit de chatbot avancé pour les modèles de chat d'OpenAI visant à imiter l'interface et les fonctionnalités de ChatGPT.",
+  "Chat²GPT is an advanced chat UI for Mistral AI's API aiming to mimic ChatGPT's interface and functionality.": "Chat²GPT est un kit de chatbot avancé pour les modèles de chat d'Mistral visant à imiter l'interface et les fonctionnalités de ChatGPT.",
   "Are you sure you want to clear all messages?": "Êtes-vous sûr de vouloir effacer tous les messages ?"
 }

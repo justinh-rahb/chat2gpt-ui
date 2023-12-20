@@ -77,7 +77,7 @@ export const OpenAIStream = async (
       );
     } else {
       throw new Error(
-        `OpenAI API returned an error: ${
+        `Mistral API returned an error: ${
           decoder.decode(result?.value) || result.statusText
         }`,
       );

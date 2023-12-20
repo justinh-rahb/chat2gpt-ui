@@ -390,7 +390,7 @@ export const ChatInput = ({
         </a>
         .{' '}
         {t(
-          "Chat²GPT is an advanced chat UI for OpenAI's API aiming to mimic ChatGPT's interface and functionality.",
+          "Chat²GPT is an advanced chat UI for Mistral AI's API aiming to mimic ChatGPT's interface and functionality.",
         )}
       </div>
     </div>

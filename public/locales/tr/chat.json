@@ -1,10 +1,10 @@
 {
-  "OpenAI API Key Required": "OpenAI API Anahtarı Gerekli",
-  "Please set your OpenAI API key in the bottom left of the sidebar.": "Lütfen OpenAI API anahtarınızı yan çubuğun sol altınan'dan ayarlayın.",
+  "Mistral API Key Required": "Mistral API Anahtarı Gerekli",
+  "Please set your Mistral API key in the bottom left of the sidebar.": "Lütfen Mistral API anahtarınızı yan çubuğun sol altınan'dan ayarlayın.",
   "Stop Generating": "Durdur",
   "Prompt limit is {{maxLength}} characters": "Prompt sınırı {{maxLength}} karakterdir",
   "System Prompt": "Sistem Prompt",
-  "You are ChatGPT, a large language model trained by OpenAI. Follow the user's instructions carefully. Respond using markdown.": "Sen ChatGPT'sin, OpenAI tarafından eğitilmiş büyük bir dil modelisin. Kullanıcının talimatlarını dikkatlice takip et. Yanıtını markdown kullanarak ver.",
+  "You are ChatGPT, a large language model trained by Mistral AI. Follow the user's instructions carefully. Respond using markdown.": "Sen ChatGPT'sin, Mistral tarafından eğitilmiş büyük bir dil modelisin. Kullanıcının talimatlarını dikkatlice takip et. Yanıtını markdown kullanarak ver.",
   "Enter a prompt": "Bir prompt girin",
   "Regenerate response": "Yanıtı Yeniden Oluştur",
   "Sorry, there was an error.": "Üzgünüm, bir hata oluştu.",
@@ -18,11 +18,11 @@
   "You": "Sen",
   "Cancel": "İptal",
   "Save & Submit": "Kaydet ve Gönder",
-  "Make sure your OpenAI API key is set in the bottom left of the sidebar.": "OpenAI API anahtarınızın yan çubuğun sol altında ayarlandığından emin ol.",
-  "If you completed this step, OpenAI may be experiencing issues.": "Bu adımı tamamladıysanız, OpenAI sorun yaşıyor olabilir.",
+  "Make sure your Mistral API key is set in the bottom left of the sidebar.": "Mistral API anahtarınızın yan çubuğun sol altında ayarlandığından emin ol.",
+  "If you completed this step, Mistral may be experiencing issues.": "Bu adımı tamamladıysanız, Mistral sorun yaşıyor olabilir.",
   "click if using a .env.local file": "Eğer .env.local dosyası kullanıyorsanız tıklayın",
   "Message limit is {{maxLength}} characters. You have entered {{valueLength}} characters.": "Mesaj sınırı {{maxLength}} karakterdir. {{valueLength}} karakter girdiniz.",
   "Please enter a message": "Lütfen bir mesaj girin",
-  "Chat²GPT is an advanced chat UI for OpenAI's API aiming to mimic ChatGPT's interface and functionality.": "Chat²GPT, ChatGPT'nin arayüz ve işlevselliğini taklit etmeyi amaçlayan OpenAI'in sohbet modelleri için gelişmiş bir sohbetbot kitidir.",
+  "Chat²GPT is an advanced chat UI for Mistral AI's API aiming to mimic ChatGPT's interface and functionality.": "Chat²GPT, ChatGPT'nin arayüz ve işlevselliğini taklit etmeyi amaçlayan Mistral AI'in sohbet modelleri için gelişmiş bir sohbetbot kitidir.",
   "Are you sure you want to clear all messages?": "Tüm mesajları temizlemek istediğinize emin misiniz?"
 }
